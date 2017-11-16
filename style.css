@@ -1,0 +1,653 @@
+@font-face {
+    font-family: Black;
+    src: url(fonts/TitilliumWeb-Black.ttf);
+}
+@font-face {
+    font-family: Bold;
+    src: url(fonts/TitilliumWeb-Bold.ttf);
+}
+@font-face {
+    font-family: BoldItalic;
+    src: url(fonts/TitilliumWeb-BoldItalic.ttf);
+}
+@font-face {
+    font-family: ExtraLight;
+    src: url(fonts/TitilliumWeb-ExtraLight.ttf);
+}
+@font-face {
+    font-family: ExtraLightItalic;
+    src: url(fonts/TitilliumWeb-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: Italic;
+    src: url(fonts/TitilliumWeb-Italic.ttf);
+}
+@font-face {
+    font-family: Light;
+    src: url(fonts/TitilliumWeb-Light.ttf);
+}
+@font-face {
+    font-family: LightItalic;
+    src: url(fonts/TitilliumWeb-LightItalic.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(fonts/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+    font-family: SemiBold;
+    src: url(fonts/TitilliumWeb-SemiBold.ttf);
+}
+@font-face {
+    font-family: SemiBoldItalic;
+    src: url(fonts/TitilliumWeb-SemiBoldItalic.ttf);
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.mid{
+	width: 80%;
+	margin:auto;
+}
+
+
+
+
+
+
+
+
+/*home-section css design start here*/
+.home-section{
+	background-color: #87509c;
+	background:url(images/00001.jfif);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.header{
+	padding: 30px 0px;
+}
+.header .header-logo{
+	width: 20%;
+	float: left;
+	margin-top: 40px;
+}
+.header .header-menus{
+	width: 80%;
+	float: left;
+	margin-top: 40px;
+}
+.header .header-menus ul{
+	float: right;
+}
+.header .header-menus ul li{
+	display: inline-block;
+}
+.header .header-menus ul li a{
+	padding: 5px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family:Light; 
+}
+.header .header-menus ul li a:hover{
+	background-color: #643a79;
+	border-radius: 5px;
+}
+.home-content .home-content-text{
+	text-align: center;
+	font-size: 43px;
+	color: #fff;
+	font-family: SemiBold;
+	margin-top: 30px;
+	padding: 100px 0px;
+}
+.home-content-btn{
+	text-align: center;
+	padding-bottom: 259px;
+}
+.home-content-btn a{
+	text-align: center;
+	padding: 23px 80px;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #eb7d4b;
+	font-family: Regular;
+	border-radius: 5px;
+	border-bottom: 5px solid #c86a40;
+}
+.home-content-btn a:hover{
+	background-color: #c9734c;
+}
+
+
+
+
+
+
+
+
+/*service-section css design start here*/
+.service-section{
+	width: 100%;
+	height: 832px;
+	background-color: #17c2a4;
+}
+.service-headline{
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	font-family: SemiBold;
+	text-transform: uppercase;
+	padding-top: 100px;
+	letter-spacing: 3px;
+}
+.service-section .underline{
+	margin: auto;
+	height: 5px;
+	width: 100px;
+	background-color: #14a58c
+}
+.service-text{
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	font-family: Regular;
+
+}
+.service-content{
+	width: 100%;
+	padding-top: 102px;
+}
+
+.branding-content{
+	margin-right: 32px;
+	float: left;
+	height:320px;
+	width: 23%;
+	color: #fff;
+	font-family: SemiBold;
+	text-align: center;
+}
+.branding-content h3{
+	font-size: 35px;
+	padding-top: 45px;
+}
+.branding-content p{
+	font-size: 19px;
+}
+.design-content{
+	margin-right: 32px;
+	float: left;
+	height: 320px;
+	width: 23%;
+	color: #fff;
+	font-family: SemiBold;
+	text-align: center;
+}
+.design-content h3{
+	font-size: 32px;
+	padding-top: 40px;
+}
+.design-content p{
+	font-size: 19px;
+}
+.developing-content{
+	margin-right: 32px;
+	float: left;
+	height: 320px;
+	width: 23%;
+	color: #fff;
+	font-family: SemiBold;
+	text-align: center;
+}
+.developing-content h3{
+	font-size: 32px;
+	padding-top: 45px;
+}
+.developing-content p{
+	font-size: 19px;
+}
+.science-content{
+	float: left;
+	height: 320px;
+	width: 23%;
+	color: #fff;
+	font-family: SemiBold;
+	text-align: center;
+}
+.science-content h3{
+	font-size: 35px;
+	padding-top: 40px;
+}
+.science-content p{
+	font-size: 19px;
+}
+
+
+
+/*team-section css design start here*/
+.team-section{
+	width: 100%;
+	height: 950px;
+	background-color: #e7f1f8;
+}
+.team-headline{
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	color: #3c4761;
+	font-family: SemiBold;
+	text-transform: uppercase;
+	padding-top: 100px;
+	letter-spacing: 3px;
+}
+.team-section .underline{
+	margin: auto;
+	height: 5px;
+	width: 100px;
+	background-color: #c8d9e5;
+}
+.team-text{
+	font-size: 20px;
+	text-align: center;
+	color: #3c4761;
+	font-family: Regular;
+
+}
+.team-content{
+	width: 100%;
+	padding-top: 102px;
+	text-align: center;
+}
+.team-content h4{
+	color: #48c1e9;
+	font-family: Regular;
+	padding: 10px;
+}
+
+.member{
+	margin-right: 10px;
+	display: inline-block;
+	height: 550px;
+	width: 23%;
+	color: #3c4761;
+	font-family: SemiBold;
+	text-align: center;
+}
+.member h3{
+	font-size: 35px;
+	padding-top: 45px;
+}
+.member p{
+	font-size: 19px;
+}
+
+.member-img{
+	height: 250px;
+	width: 250px;
+	background-color: #ccc;
+	border-radius: 50%;
+	margin: auto;
+	
+}
+.member-img img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	display: block;
+}
+.team-social{
+	text-align: center;
+	padding-top: 20px;
+}
+.team-social ul li{
+	display: inline-block;
+	padding: 5px;
+}
+.team-social ul li a{
+	display: block;
+	padding: 9px 10px;
+	font-size: 20px;
+	background-color: #bdd1df;
+	border-radius: 50px;
+	color: #fff;
+}
+.bla{
+	padding: 1px 4px;
+}
+
+
+
+/*skill css design start here*/
+.skill-section{
+	width: 100%;
+	background-color: #fff;
+}
+.skill-headline{
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	color: #3c4761;
+	font-family: SemiBold;
+	text-transform: uppercase;
+	padding-top: 100px;
+	letter-spacing: 3px;
+}
+.skill-section .underline{
+	margin: auto;
+	height: 5px;
+	width: 100px;
+	background-color: #c8d9e5;
+}
+.skill-text{
+	font-size: 20px;
+	text-align: center;
+	color: #3c4761;
+	font-family: Regular;
+
+}
+
+.skill-content{
+	width: 100%;
+	text-align: center;
+	padding: 100px 0px;
+}
+.skill-item{
+	margin: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	font-family: Regular;
+}
+.skill-item h3{
+	font-size: 29px;
+	color: #3c4761;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*portfolio css design start here*/
+.portfolio-section{
+	width: 100%;
+	background-color: #ffdd99;
+	background:url(images/bhfjf.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-position:absolute;
+}
+.portfolio-headline{
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	color: #3c4761;
+	font-family: SemiBold;
+	text-transform: uppercase;
+	padding-top: 100px;
+	letter-spacing: 3px;
+}
+.portfolio-section .underline{
+	margin: auto;
+	height: 5px;
+	width: 100px;
+	background-color: #e5c37f;
+}
+.portfolio-text{
+	font-size: 20px;
+	text-align: center;
+	color: #3c4761;
+	font-family: Regular;
+}
+.portfolio-content{
+	width: 100%;
+	text-align: center;
+	padding: 1px 0px;
+}
+.portfolio-menu ul{
+	padding: 0px;
+}	
+.portfolio-menu ul li{
+	display: inline-block;
+	padding: 5px;
+}
+.portfolio-menu ul li a{
+	display: block;
+	padding: 14px 30px;
+	color: #000
+	text-transform: uppercase;
+	font-family:Light; 
+	background-color: #ebc985;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.portfolio-menu ul li a:hover{
+	background-color: #fff;
+}
+
+.portfolio-content .container .box{
+	display: inline-block;
+	margin: 20px;
+}
+.portfolio-content-btn{
+	text-align: center;
+	padding: 132px;
+}
+.portfolio-content-btn a{
+	text-align: center;
+	padding: 23px 80px;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #17c2a4;
+	font-family: Regular;
+	border-radius: 5px;
+	border-bottom: 5px solid #14a58c;
+}
+.portfolio-content-btn a:hover{
+	background-color: #22b99f;
+}
+
+
+/*ABOUT css design start here*/
+.about-section{
+	width: 100%;
+	background-color: #d74680;
+	background:url(images/hexagon-9.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.about-headline{
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	font-family: SemiBold;
+	text-transform: uppercase;
+	padding-top: 100px;
+	letter-spacing: 3px;
+}
+.about-section .underline{
+	margin: auto;
+	height: 5px;
+	width: 100px;
+	background-color: #b73c6d;
+}
+.about-text{
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	font-family: Regular;
+}
+.about-content{
+	width: 100%;
+	padding: 1px 0px;
+	text-align: center;
+}
+
+.about-content-review{
+	height: 200px;
+	width: 40%;
+	display: inline-block;
+	margin: 50px;
+}
+
+.about-review-img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float: left;
+}
+.about-review-img img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	display: block;
+}
+.about-review{
+ 	height: 185px;
+    width: 320px;
+    float: left;
+    
+}
+.about-review p{
+	font-family: LightItalic;
+	margin-left: 40px;
+	color: #fff;
+	font-size: 20px;
+	text-align: left;
+}
+.about-review h3{
+	font-family: SemiBold;
+	margin-left: 40px;
+	font-size: 30px;
+	color: #fff;
+	text-align: left;
+}
+.about-review h4{
+	font-family: Regular;
+	margin-left: 40px;
+	color: #ffdd99;
+	font-size: 20px;
+	text-align: left;
+}
+
+
+/*contact css design start here*/
+.contact-section{
+	width: 100%;
+	background-color: #3c5499;
+	background:url(images/free-wallpaper-15.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.contact-headline{
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	font-family: SemiBold;
+	text-transform: uppercase;
+	padding-top: 100px;
+	letter-spacing: 3px;
+}
+.contact-section .underline{
+	margin: auto;
+	height: 5px;
+	width: 100px;
+	background-color: #273a71;
+}
+.contact-text{
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	font-family: Regular;
+}
+.contact-content{
+	width: 80%;
+	padding: 1px 0px;
+	text-align: center;
+	margin: auto;
+}
+
+.contact-content input{
+	height: 50px;
+	width: 40%;
+	background-color: #273a71;
+	border:0px;
+	margin: 20px;
+	border-radius:3px;
+}
+.contact-content textarea{
+	height: 200px;
+	width: 86%;
+	background-color: #273a71;
+	border:0px;
+	border-radius:3px;
+}
+.contact-content input[placeholder]{
+	color: #fff;
+	padding-left: 20px;
+	font-family: Regular;
+	font-size: 18px;
+}
+.contact-content textarea[placeholder]{
+	font-family: Regular;
+	color: #fff;
+	padding-left: 23px;
+	padding-top: 30px;
+	font-size: 18px;
+}
+
+
+
+.contact-content-btn{
+	text-align: center;
+	padding: 120px;
+}
+.contact-content-btn a{
+	text-align: center;
+	padding: 23px 80px;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #30bae7;
+	font-family: Regular;
+	border-radius: 5px;
+	border-bottom: 5px solid #299ec5;
+}
+.contact-content-btn a:hover{
+	background-color: #3ba4c7;
+}
+
+
+
+
+
+.footer-section{
+	width: 100%;
+	background-color: #334b8e;
+	text-align: center;
+	overflow: hidden;
+}
+.footer-section ul li{
+	display: inline-block;
+}
+.footer-section ul li a{
+	display: block;
+	color: #fff;
+	padding: 30px 22px;
+	font-family: SemiBold;
+	font-size: 25px;
+}
+
+.footer-section ul li a:hover{
+	color: #30bae7;
+}
